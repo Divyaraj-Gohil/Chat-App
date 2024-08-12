@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* d3d3d3 */
+body {
+    background-image: url('https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+    /* background-color: #F8EDE3; */
+    /* background-color: rgb(247, 230, 244); */
+}
+
+/* index.css */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: black;
+}
