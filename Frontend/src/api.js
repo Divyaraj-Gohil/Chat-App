@@ -1,9 +1,8 @@
 import axios from 'axios';
-import Cookies from 'js-cookie'; // or your preferred cookie library
 
 // Create Axios instance
 const api = axios.create({
-    baseURL: 'https://temp-7grl.onrender.com/api/v1', // Replace with your API base URL
+    baseURL: 'https://chat-app-oymd.onrender.com/api/v1',
 });
 // Set up interceptor
 api.interceptors.request.use(config => {

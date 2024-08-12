@@ -15,7 +15,7 @@ const Login = () => {
     const submitHandller = async (e) => {
         e.preventDefault()
         try {
-            const res = await axios.post('https://temp-7grl.onrender.com/api/v1/user/login', user, {
+            const res = await axios.post('https://chat-app-oymd.onrender.com/api/v1/user/login', user, {
                 headers: {
                     "Content-Type": 'application/json'
                 },

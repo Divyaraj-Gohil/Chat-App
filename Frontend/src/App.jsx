@@ -31,7 +31,7 @@ function App() {
   const dispatch = useDispatch()
   useEffect(() => {
     if (authUser) {
-      const socketio = io('https://temp-7grl.onrender.com', {
+      const socketio = io('https://chat-app-oymd.onrender.com', {
         query: {
           userId: authUser.id
         }

@@ -18,7 +18,7 @@ function Sidebar() {
     const [suggestions, setSuggestions] = useState('');
     const handlelogout = async () => {
         try {
-            const res = await axios.get('https://temp-7grl.onrender.com/api/v1/user/logout', {
+            const res = await axios.get('https://chat-app-oymd.onrender.com/api/v1/user/logout', {
                 headers: {
                     'content-Type': 'application/json',
                 },
