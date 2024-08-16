@@ -7,7 +7,7 @@ const app = express()
 const server = http.createServer(app)
 const io = new Server(server, {
     cors: {
-        origin: ['https://divyaraj-gohil.github.io', 'https://divyaraj-gohil-chat.netlify.app', 'https://chat-app-pi-sandy.vercel.app','http://localhost:5173/Chat-App'],
+        origin: ['https://divyaraj-gohil.github.io', 'https://divyaraj-gohil-chat.netlify.app', 'https://chat-app-pi-sandy.vercel.app','http://localhost:5173'],
         methods: ['GET', 'POST'],
         credentials: true
     }
