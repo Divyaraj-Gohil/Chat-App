@@ -12,7 +12,7 @@ import { app, server } from './socket/socket.js'
 dotenv.config()
 //const app = express()
 const crossOption = {
-    origin: ['https://divyaraj-gohil.github.io', 'https://divyaraj-gohil-chat.netlify.app', 'http://localhost:5173/Chat-App/'],
+    origin: ['https://divyaraj-gohil.github.io', 'https://divyaraj-gohil-chat.netlify.app', 'https://chat-app-pi-sandy.vercel.app','http://localhost:5173/Chat-App'],
     methods: ['GET', 'POST'],
     credentials: true
 }
